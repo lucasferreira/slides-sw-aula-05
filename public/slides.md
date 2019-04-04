@@ -335,12 +335,12 @@ module.exports = { presets };
 Após instalado e configurado, tudo que precisamos fazer é informar nosso arquivo JavaScript com código de desenvolvimento (moderno) ao cliente de comando do Babel.js:
 
 ```console
-./node_modules/.bin/babel src/index.js --out-dir lib/main.js
+./node_modules/.bin/babel src/index.js --out-dir lib
 ```
 
 --
 
-No exemplo acima apesar de codarmos no arquivo `src/index.js` iremos carregar em nosso site o produto final `lib/main.js`.
+No exemplo acima apesar de codarmos no arquivo `src/index.js` iremos carregar em nosso site o produto final `lib/index.js`.
 
 ---
 
@@ -504,7 +504,7 @@ module: {
         },
       },
     },
-  ];
+  ],
 }
 ```
 
