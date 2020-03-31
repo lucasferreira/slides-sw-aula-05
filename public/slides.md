@@ -201,15 +201,15 @@ const express = require("express");
 const app = express();
 const port = 5000;
 
-app.get("/", function(req, res) {
+app.get("/", function (req, res) {
   res.send("Hello World!");
 });
 
-app.get("/teste", function(req, res) {
+app.get("/teste", function (req, res) {
   res.send("Teste");
 });
 
-app.listen(port, function() {
+app.listen(port, function () {
   console.log(`Server running at http://localhost:${port}/`);
 });
 ```
@@ -279,7 +279,7 @@ E cria uma versão compatível com qualquer navegador (antigo ou novo):
 
 ```js
 var items = [1, 2, 3, 4];
-items.map(function(n) {
+items.map(function (n) {
   return n * 2;
 });
 ```
@@ -525,3 +525,96 @@ module: {
 **Gulp**: https://gulpjs.com
 
 **Parcel**: https://parceljs.org
+
+---
+
+class: center, middle
+count: false
+
+# Github
+
+---
+
+## Github
+
+Antes de tudo é preciso saber que Git não é GitHub _(e vice-e-versa)_.
+
+--
+
+**Git** é um sistema distribuído de controle de versão de código, assim com o _Subversion_ e o finado _CVS_.
+
+--
+
+**GitHub** é o local onde você hospeda os seus repositórios Git na web, assim como _GitLab_ e _Bitbucket_.
+
+--
+
+O **GitHub** iniciou suas atividades com o modelo de ser gratuíto para projetos abertos e pago para projetos privados.
+
+--
+
+Dado seu modelo inicial de ser gratuíto para projetos open-source, a comunidade de desenvolvedores web adotou com rapidez e garantiu o uso amplo da plataforma para diverso projetos e bibliotecas. Hoje todo projeto open-source "de respeito" possui um repositório para contribuição no GitHub.
+
+--
+
+**Toda a plataforma do GitHub foi adquirida pela Microsoft no ano de 2018 por `$7.5 bilhões`!**
+
+---
+
+## Iniciando no Github
+
+1. Crie uma conta no GitHub 👉 https://github.com/join
+
+2. Instale o Git para sua plataforma 👉 https://git-scm.com/downloads
+
+3. Para quem é iniciante recomendo muito o GitHub Desktop 👉 https://desktop.github.com
+
+4. Após estar logado no GitHub, no canto superior direito, clicando no `+` vá em **New Repository**
+
+5. Crie seu primeiro repositório, por exemplo `hello-world`<br />
+   _PS.: Sugiro marcar a caixinha `Initialize this repository with a README`_
+
+6. Após seu repositório criado, você poderá "clonar" este repositório / projeto localmente em sua máquina, trabalhar nele e ir enviado suas contribuições, evoluções e melhorias para a plataforma on-line.
+
+---
+
+## Desafio da noite 💥
+
+1. Crie sua conta do GitHub _(para quem ainda não o fez)_
+
+--
+
+2. Crie um novo repositório público com nome de `atv-sw-chat`<br />
+   _PS.: Sugiro marcar a caixinha `Initialize this repository with a README`_
+
+--
+
+3. Clone esse repositório para o seu computador, quem for iniciante use o **GitHub Desktop** ou siga a instruções deste tutorial 👉 http://devfuria.com.br/git/tutorial-iniciando-git/
+
+--
+
+4. Adicione ao menos um arquivo nesse repositório, a ideia é vocês usarem esse repositório para nossa atividade de reposição, aquela do chat em HTML e CSS. Quem já começou a fazer a atividade pode por os arquivos do que fez até agora. Quem ainda não começou pode commitar no projeto aquele _modelo_chat.html_ que eu mandei para vocês.
+
+--
+
+5. Me mandem o link público do repositório que vocês criaram, podem mandar via Teams, via e-mail ou pelo whatsapp 😉
+
+---
+
+## Palavras-chave de hoje 🔥
+
+**Node.JS**
+
+**NPM**
+
+**Babel.js**
+
+**Webpack**
+
+**GitHub**
+
+**open-source**
+
+--
+
+<p style="text-align: center; font-size: 44px; margin-top: 51px;">🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀</p>
