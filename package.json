@@ -12,8 +12,17 @@
     "start": "node server.js"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "decktape": "^2.9.2",
     "finalhandler": "^1.1.1",
-    "serve-static": "^1.13.2"
+    "serve-static": "^1.13.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
   }
 }
