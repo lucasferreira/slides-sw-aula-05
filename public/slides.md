@@ -270,7 +270,7 @@ Por exemplo, o Babel.js pega o código abaixo:
 
 ```js
 const items = [1, 2, 3, 4];
-items.map(n => n * 2);
+items.map(n => n ** 2);
 ```
 
 --
@@ -280,7 +280,7 @@ E cria uma versão compatível com qualquer navegador (antigo ou novo):
 ```js
 var items = [1, 2, 3, 4];
 items.map(function (n) {
-  return n * 2;
+  return Math.pow(n, 2);
 });
 ```
 
@@ -578,7 +578,7 @@ Dado seu modelo inicial de ser gratuíto para projetos open-source, a comunidade
 
 ---
 
-## Desafio da noite 💥
+## Exercício / Desafio da noite 💥
 
 1. Crie sua conta do GitHub _(para quem ainda não o fez)_
 
@@ -589,15 +589,15 @@ Dado seu modelo inicial de ser gratuíto para projetos open-source, a comunidade
 
 --
 
-3. Clone esse repositório para o seu computador, quem for iniciante use o **GitHub Desktop** ou siga a instruções deste tutorial 👉 http://devfuria.com.br/git/tutorial-iniciando-git/
+3. Clone esse repositório para o seu computador, quem for iniciante use o **GitHub Desktop** ou siga a instruções deste tutorial 👉 http://devfuria.com.br/git/tutorial-para-iniciar-com-o-git-e-o-github/
 
 --
 
-4. Adicione ao menos um arquivo nesse repositório, a ideia é vocês usarem esse repositório para nossa atividade de reposição, aquela do chat em HTML e CSS. Quem já começou a fazer a atividade pode por os arquivos do que fez até agora. Quem ainda não começou pode commitar no projeto aquele _modelo_chat.html_ que eu mandei para vocês.
+4. Adicione ao menos um arquivo nesse repositório, a ideia é vocês usarem esse repositório para nossa última atividade, aquela do chat em HTML+CSS e JavaScript. Quem já fez a atividade pode por os arquivos do que já está pronto. Quem não fez 😞 podem commitar no projeto aquele _modelo_chat.html_ que eu demonstrei para vocês.
 
 --
 
-5. Me mandem o link público do repositório que vocês criaram, podem mandar via Teams, via e-mail ou pelo whatsapp 😉
+5. Me mandem _(até a próxima aula)_ o link público do repositório que vocês criaram, podem mandar via Teams, via e-mail ou pelo whatsapp 😉
 
 ---
 

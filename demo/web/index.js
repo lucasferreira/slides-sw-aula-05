@@ -7,4 +7,8 @@ function usaModulos() {
   console.log(2 ** 2);
 }
 
+const teste = () => {
+  console.log("Teste");
+};
+
 usaModulos();
